@@ -1,0 +1,34 @@
+Question 4 - Input/Output Investigation
+
+Command: mkdir IO_Investigation
+Explanation: Creates the IO_Investigation directory.
+
+Command: cd IO_Investigation
+Explanation: Changes into the directory.
+
+Command: echo "Application started" > app.log
+Explanation: Creates app.log with sample text.
+
+Command: lsof app.log
+Explanation: Checks whether any process has the file open.
+
+Command: ls -l /proc/$$/fd
+Explanation: Lists file descriptors used by the current shell.
+
+Command: echo "System Running" > output.txt
+Explanation: Writes text to output.txt.
+
+Command: ls wrongfile 2> error.txt
+Explanation: Redirects the error message into error.txt.
+
+Command: (ls; ls wrongfile) > all_output.txt 2>&1
+Explanation: Redirects both standard output and standard error into one file.
+
+Command: ulimit -a
+Explanation: Displays current shell resource limits.
+
+Command: nano IO_Investigation_Report.txt
+Explanation: Creates/edits the report.
+
+Command: cat IO_Investigation_Report.txt
+Explanation: Displays the report.

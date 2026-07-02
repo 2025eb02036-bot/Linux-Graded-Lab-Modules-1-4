@@ -1,0 +1,31 @@
+Question 4 - Sample Outputs
+
+$ mkdir IO_Investigation
+(no output)
+
+$ cd IO_Investigation
+(no output)
+
+$ echo "Application started" > app.log
+(no output)
+
+$ lsof app.log
+(no output)
+
+$ ls -l /proc/$$/fd
+total ...
+
+$ echo "System Running" > output.txt
+(no output)
+
+$ ls wrongfile 2> error.txt
+(no output)
+
+$ cat error.txt
+ls: cannot access 'wrongfile': No such file or directory
+
+$ ulimit -a
+open files (-n) 1024
+
+$ cat IO_Investigation_Report.txt
+I/O investigation completed.
