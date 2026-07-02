@@ -1,0 +1,33 @@
+Question 2 - Sample Outputs
+
+$ mkdir Project_Workspace
+(no output)
+
+$ cd Project_Workspace
+(no output)
+
+$ mkdir Documents Reports Backup
+(no output)
+
+$ touch Documents/project.txt
+(no output)
+
+$ ls -ld .
+drwx------ 5 student student 4096 Jul 1 11:00 .
+
+$ ls -l
+drwxr-xr-x Documents
+drwxr-xr-x Reports
+drwxr-xr-x Backup
+
+$ chmod 700 Project_Workspace
+chmod: cannot access 'Project_Workspace': No such file or directory
+
+$ chmod 600 Documents/project.txt
+(no output)
+
+$ umask
+0022
+
+$ cat Project_Workspace_Report.txt
+Project workspace created successfully.

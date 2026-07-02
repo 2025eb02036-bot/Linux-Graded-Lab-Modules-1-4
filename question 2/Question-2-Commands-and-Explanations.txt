@@ -1,0 +1,34 @@
+Question 2 - File and Directory Management
+
+Command: mkdir Project_Workspace
+Explanation: Creates a directory named Project_Workspace. If 'File exists' appears, the directory was already created.
+
+Command: cd Project_Workspace
+Explanation: Changes the current working directory to Project_Workspace.
+
+Command: mkdir Documents Reports Backup
+Explanation: Creates three directories at once. 'File exists' means they already exist.
+
+Command: touch Documents/project.txt
+Explanation: Creates an empty file named project.txt.
+
+Command: ls -ld .
+Explanation: Displays details of the current directory.
+
+Command: ls -l
+Explanation: Lists files and directories in long format.
+
+Command: chmod 700 Project_Workspace
+Explanation: Changes directory permissions. If 'No such file or directory' appears, you were already inside Project_Workspace.
+
+Command: chmod 600 Documents/project.txt
+Explanation: Gives read/write permission only to the owner.
+
+Command: umask
+Explanation: Displays the default permission mask.
+
+Command: nano Project_Workspace_Report.txt
+Explanation: Creates/edits the report file.
+
+Command: cat Project_Workspace_Report.txt
+Explanation: Displays the saved report.
