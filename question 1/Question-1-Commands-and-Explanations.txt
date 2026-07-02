@@ -1,0 +1,22 @@
+Question 1 - Linux Environment Verification
+
+Command: id
+Explanation: Displays the current user's UID, GID, and group memberships.
+
+Command: echo $SHELL
+Explanation: Displays the default shell currently used by the user.
+
+Command: pwd
+Explanation: Shows the current working directory.
+
+Command: ls -la
+Explanation: Lists all files and directories, including hidden files, in long format.
+
+Command: ping -c 4 google.com
+Explanation: Tests network connectivity by sending four ICMP packets to google.com.
+
+Command: nano Environment_Report.txt
+Explanation: Creates or edits the Environment_Report.txt file to record observations.
+
+Command: cat Environment_Report.txt
+Explanation: Displays the contents of Environment_Report.txt to verify it was saved correctly.

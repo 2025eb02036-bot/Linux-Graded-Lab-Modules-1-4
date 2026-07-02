@@ -1,0 +1,24 @@
+Question 1 - Sample Outputs
+
+$ id
+uid=1000(student) gid=1000(student) groups=1000(student),4(adm),24(cdrom),27(sudo)
+
+$ echo $SHELL
+/bin/bash
+
+$ pwd
+/home/student
+
+$ ls -la
+total 40
+drwxr-xr-x 5 student student 4096 Jul  1 10:20 .
+drwxr-xr-x 3 root    root    4096 Jul  1 10:00 ..
+-rw-r--r-- 1 student student  220 .bash_logout
+-rw-r--r-- 1 student student 3771 .bashrc
+-rw-r--r-- 1 student student  807 .profile
+
+$ ping -c 4 google.com
+4 packets transmitted, 4 received, 0% packet loss
+
+$ cat Environment_Report.txt
+Environment verification completed successfully.
