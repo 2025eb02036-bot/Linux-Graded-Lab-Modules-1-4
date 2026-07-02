@@ -1,0 +1,21 @@
+Question 5 - Sample Outputs
+
+$ lsblk
+NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+sda    8:0    0 100G 0 disk
+├─sda1
+└─sda2
+
+$ df -h
+Filesystem Size Used Avail Use% Mounted on
+/dev/sda2 99G 25G 70G 27% /
+
+$ du -sh ~
+2.3G /home/student
+
+$ df -i
+Filesystem Inodes IUsed IFree IUse%
+/dev/sda2 6553600 70000 6483600 2%
+
+$ cat Storage_Assessment_Report.txt
+Storage assessment completed successfully.

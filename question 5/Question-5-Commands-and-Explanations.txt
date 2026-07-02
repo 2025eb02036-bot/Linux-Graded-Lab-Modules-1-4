@@ -1,0 +1,19 @@
+Question 5 - Storage Health Assessment
+
+Command: vi Storage_Assessment_Report.txt
+Explanation: Creates and edits the storage assessment report.
+
+Command: lsblk
+Explanation: Lists storage devices and partitions.
+
+Command: df -h
+Explanation: Displays mounted file systems and disk usage.
+
+Command: du -sh ~
+Explanation: Shows the total disk usage of the home directory. Recommended for WSL.
+
+Command: df -i
+Explanation: Displays inode usage for mounted file systems.
+
+Command: cat Storage_Assessment_Report.txt
+Explanation: Displays the saved report to verify its contents.
