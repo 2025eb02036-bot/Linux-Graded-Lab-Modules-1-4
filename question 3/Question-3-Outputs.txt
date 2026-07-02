@@ -1,0 +1,33 @@
+Question 3 - Sample Outputs
+
+$ mkdir Link_Analysis
+(no output)
+
+$ cd Link_Analysis
+(no output)
+
+$ echo "Linux Link Analysis" > original.txt
+(no output)
+
+$ ln original.txt hardlink.txt
+(no output)
+
+$ ln -s original.txt softlink.txt
+(no output)
+
+$ ls -li
+12345 original.txt
+12345 hardlink.txt
+12346 softlink.txt -> original.txt
+
+$ stat original.txt
+File: original.txt
+
+$ rm original.txt
+(no output)
+
+$ cat hardlink.txt
+Linux Link Analysis
+
+$ cat Link_Analysis_Report.txt
+Hard link remains after deleting original file.

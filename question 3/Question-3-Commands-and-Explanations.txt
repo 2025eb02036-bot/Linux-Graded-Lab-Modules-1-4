@@ -1,0 +1,36 @@
+Question 3 - Hard and Soft Links
+
+Command: mkdir Link_Analysis
+Explanation: Creates the Link_Analysis directory.
+
+Command: cd Link_Analysis
+Explanation: Moves into the Link_Analysis directory.
+
+Command: echo "Linux Link Analysis" > original.txt
+Explanation: Creates original.txt with sample content.
+
+Command: ln original.txt hardlink.txt
+Explanation: Creates a hard link. 'File exists' means it was already created.
+
+Command: ln -s original.txt softlink.txt
+Explanation: Creates a symbolic link.
+
+Command: ls -li
+Explanation: Shows inode numbers for files.
+
+Command: stat original.txt
+Command: stat hardlink.txt
+Command: stat softlink.txt
+Explanation: Displays detailed file information.
+
+Command: rm original.txt
+Explanation: Deletes the original file.
+
+Command: cat hardlink.txt
+Explanation: Verifies the hard link still contains the data.
+
+Command: nano Link_Analysis_Report.txt
+Explanation: Creates/edits the report.
+
+Command: cat Link_Analysis_Report.txt
+Explanation: Displays the report.
